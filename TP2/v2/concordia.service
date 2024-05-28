@@ -1,0 +1,11 @@
+[Unit]
+Description=Concordia
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/rodrigo/Desktop/ssi-temp/s
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
